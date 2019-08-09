@@ -4,9 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap Exercise</title>
 
-  <!-- Load Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <!-- Load Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css">
 
   <!-- Load our stylesheet -->
 
@@ -14,9 +14,87 @@
 
 <body>
 
-<!-- Code goes here. -->
+<div class="navbar container-fluid">
+    <div>
+        <a class="navbar-brand" href="/">Ubermelon</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/shop">Shop</a>
+    </div>
+    <div>
+        <a href="/login">Login</a>
+        <a href="/favorite-melons">Favorite Melons</a>
+        <a href="/settings">Settings</a>
+        <a href="/profile">Profile</a>
+    </div>
+</div>
 
-
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <!-- <div class="mx-auto" style="width: 600px;"> -->
+            <div>
+                <img class="img-fluid" alt="Responsive image" src="http://cdn.shopify.com/s/files/1/1380/2059/products/shutterstock_306772649_grande.jpg?v=1483512638">
+                <p class="text-center">We deliver only the highest quality domestic and exotic melons from local, independent farmers from around the world. Our melons are delivered quickly with the greatest care. We guarantee every order, every time.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <i class="fas fa-trophy"></i>
+                <h5 style="display: inline"><b>Award Winning</b></h5>
+            </div>
+            <p class="text-center">Don't take our word for it. See all the awards our melons have earned.</p>
+        </div>
+        <div class="col">
+            <div class="text-center">
+                <i class="fas fa-globe"></i>
+                <h5 style="display: inline"><b>Huge Selection</b></h5>
+            </div>
+            <p class="text-center">We import melons from all over the world, ensuring we have every melon you could possibly desire.</p>
+        </div>
+        <div class="col">
+            <div class="text-center">
+                <i class="fas fa-certificate"></i>
+                <h5 style="display: inline"><b>Certified Sustainable</b></h5>
+            </div>
+            <p class="text-center">Our melons are sourced only from sustainable, organic local farmers. These are the healthiest melons you'll ever eat.</p>
+        </div>
+    </div>
+    <div class="row d-none d-md-block d-lg-block">
+        <table class="table">
+            <thead>
+            <tr>
+              <th scope="col">Melon</th>
+              <th scope="col">Price</th>
+              <th scope="col">Color</th>
+              <th scope="col">Country</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Canteloupe</td>
+              <td>$4.99/lb</td>
+              <td>Tan</td>
+              <td>Italy</td>
+            </tr>
+            <tr>
+              <td>Honeydew</td>
+              <td>$3.99/lb</td>
+              <td>White/Green</td>
+              <td>France/Algeria</td>
+            </tr>
+            <tr>
+              <td>Casaba</td>
+              <td>$7.99/lb</td>
+              <td>Yellow</td>
+              <td>Turkey</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+</div>
 
 
 
